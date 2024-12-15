@@ -1,6 +1,6 @@
 # Heat Equation Simulation in 3D
 
-This repository contains a Python script that simulates heat diffusion on a 2D plate using the Finite Difference Method (FDM). The simulation solves the heat equation numerically and visualizes the temperature distribution over time in a 3D animated plot.
+In this directory, you will find a Python script that simulates heat diffusion on a 2D plate using the Finite Difference Method (FDM). The simulation solves the heat equation numerically and visualizes the temperature distribution over time in a 3D animated plot.
 
 ## Features
 - Implements the heat equation using FDM with central differencing.
@@ -31,7 +31,7 @@ To install `ffmpeg`, follow the instructions for your operating system:
 ## How It Works
 
 1. **Thermal Properties and Plate Dimensions**:
-   - Thermal diffusivity (e.g., copper's diffusivity is used).
+   - Thermal diffusivity (e.g., copper's diffusivity is used). See [Wikipedia](https://en.wikipedia.org/wiki/Thermal_diffusivity) for more details about thermal diffusivity based on the material.
    - Dimensions of the plate are specified in millimeters.
 
 2. **Finite Difference Method**:
@@ -71,8 +71,8 @@ To install `ffmpeg`, follow the instructions for your operating system:
 ## Usage
 1. Clone this repository:
    ```bash
-   git clone <repository_url>
-   cd <repository_name>
+   git clone https://github.com/sayedabdulmongey/CFD.git
+   cd CFD/heat_equation_simulation
    ```
 
 2. Run the script:
@@ -83,20 +83,11 @@ To install `ffmpeg`, follow the instructions for your operating system:
 3. View the generated video `heat_equation_3d_simulation.mp4`.
 
 ## Example
-The following animation shows the temperature distribution over time:
-
-![3D Heat Simulation](heat_equation_3d_simulation.mp4)
+For an example of simulating 2D and 1D heating equations, refer to this [YouTube video](https://www.youtube.com/watch?v=CXOrkQs4WYo).
 
 ## Notes
 - Ensure the thermal diffusivity matches the material you are simulating.
 - The stability condition is critical for accurate results. Avoid altering `dt` without recalculating it based on the stability condition.
-
-## References
-- [Thermal Diffusivity on Wikipedia](https://en.wikipedia.org/wiki/Thermal_diffusivity)
-- [Stability Condition Explanation](https://www.youtube.com/watch?v=CXOrkQs4WYo)
-
-## License
-This project is licensed under the MIT License. See the `LICENSE` file for details.
 
 ---
 
