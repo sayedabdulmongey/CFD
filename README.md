@@ -1,6 +1,6 @@
 # Repository Overview
 
-Welcome to the **Burgers Turbulence and Heat Equation Simulations Repository**. This repository contains implementations of numerical simulations and machine learning-based models applied to fluid dynamics and heat transfer problems. The main objectives of these projects are to provide insights into physical systems using computational and data-driven approaches.
+Welcome to the **Burgers Turbulence and Heat Equation Simulations Repository**. This repository contains implementations of numerical simulations and machine learning-based models applied to fluid dynamics. The main objectives of these projects are to provide insights into physical systems using computational and data-driven approaches.
 
 ## Contents of the Repository
 
@@ -16,7 +16,6 @@ This folder contains the implementation of the paper:
 
 #### Features:
 - Implements a deep learning model for subgrid-scale modeling in forced Burgers turbulence.
-- Utilizes transfer learning to generalize to higher Reynolds numbers.
 - Leverages the dataset provided in the paper for reproducibility and further analysis.
 
 #### Files:
@@ -58,10 +57,4 @@ This folder contains a Python script that simulates heat diffusion on a 2D plate
 ## Contribution
 Contributions are welcome! Feel free to open issues or submit pull requests to enhance the simulations, documentation, or add new features.
 
-## License
-This repository is open-source and distributed under the MIT License. See `LICENSE` for details.
-
----
-
-We hope this repository serves as a valuable resource for understanding and applying computational methods in fluid dynamics and heat transfer. Happy coding!
 
